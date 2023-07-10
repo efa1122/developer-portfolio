@@ -163,9 +163,9 @@ main {
 /* resume styles */
 .resume-container {
     display: flex;
-    margin:0 150px;
+    margin: 0 150px;
     gap: 50px;
-    
+
 }
 
 .resume-item-title {
@@ -177,18 +177,57 @@ main {
     color: #757575;
     font-size: 20px;
 }
-.resume-column{
+
+.resume-column {
     margin: 20px;
 }
 
 .resume-item-description {
-    color:  #757575;
+    color: #757575;
     font-size: 16px;
 }
+
 .resume-container hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+form>input[type="text"], form>input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100%;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-around;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+
+}
+
+.title {
+    color: #181818;
+    font-size: 35px;
+}
+
+.desc {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+.social-icon a{
+    margin-right: 25px;
+
 }
